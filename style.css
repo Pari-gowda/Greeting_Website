@@ -1,49 +1,32 @@
+.myform{
+    align-self: center;
+}
 #head{
     text-align: center;
+    color: aliceblue;
     text-transform: uppercase;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
 }
-/*body{
-    background-image: url("BgImage.svg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: 500px;
-    
-}*/
-.svg{
-        align-content: center;
-    
+form{
+    border: 5px dashed black;
+    border-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+    background-color: grey;
 }
-.main{
-    float: left;
-    border: 50px;
-    margin-left: -40px;
-    margin-top: -100px;
+body{
+    background-color: brown;
 }
-.hall{
-    position: relative;
-    text-align: center;
-    left: -100px;
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-.sub{
-    position: absolute;
-    left: 730px;
-    bottom: 400px;
-    font-size: large;
-    text-transform: uppercase;
-    font-weight: bold;
-    word-spacing: 5px;
-    letter-spacing: 3px;
-}
-.bttns{
-    bottom: 400px;
-    right: 400px;
-}
-.typebox{
-    height: 600px;
-    width: 600px;
-    left: 500px;
-}
-.lay{
-    text-align: center;
+#restext{
+ background-color: grey;
+ text-align: center;
 }
